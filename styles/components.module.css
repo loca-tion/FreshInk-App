@@ -1,0 +1,24 @@
+.button {
+    @apply bg-transparent border border-black rounded-sm px-4 py-2 text-black;
+}
+
+.button:hover {
+    @apply bg-black px-4 py-2 rounded-sm text-white;
+}
+
+.button_footer {
+    @apply bg-transparent border border-white rounded-3xl px-4 py-1 text-white;
+}
+
+.button_footer:hover {
+    @apply bg-white text-black;
+}
+
+.tags {
+    @apply bg-transparent border border-black text-black px-4 py-1 rounded-3xl font-bold;
+}
+
+.bg {
+    background: rgb(247, 222, 97);
+    background: linear-gradient(90deg, rgba(247, 222, 97, 1) 0%, rgba(175, 73, 240, 1) 51%, rgba(141, 34, 217, 1) 100%);
+}
